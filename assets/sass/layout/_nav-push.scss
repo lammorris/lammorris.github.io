@@ -108,7 +108,8 @@
     width: 100%;
     background-color: rgba(0,0,0,.9);
     visibility: hidden;
-    transition: visibility 0s 0.7s;
+    opacity: 0;
+    transition: visibility 0s 0.7s, opacity 0s 0.7s;
 }
 .cd-nav .cd-navigation-wrapper {
     /* all navigation content */
@@ -125,7 +126,8 @@
 }
 .navigation-is-open .cd-nav {
     visibility: visible;
-    transition: visibility 0s 0s;
+    opacity: 1;
+    transition: visibility 0s 0s, opacity 0s 0s;
 }
 .navigation-is-open .cd-nav .cd-navigation-wrapper {
     transform: translateX(0);
