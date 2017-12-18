@@ -1,5 +1,7 @@
-# Morris Lam Development and Portfolio
-Personal portfolio page for both development and photography
+# Morris Lam Development and Photography Portfolio
+
+Personal Portfolio Site to showcase Software Development work and Photography
 
 ## Inquiries
-For any and all inquiries, you can reach me at lammorris@engineering.ucla.edu
+
+For any and all inquiries, you can reach me at Hello@MorrisLam.com
