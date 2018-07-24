@@ -1,8 +1,53 @@
-# Misc.
+# OS generated files #
+######################
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 .firebaserc
 firebase.json
 .idea
 
-# Folders
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Images #
+##########
+*.jpg
+*.gif
+*.png
+*.svg
+*.ico
+
+
+# Video #
+#########
+
+*.wmv
+*.mpg
+*.mpeg
+*.mp4
+*.mov
+*.flv
+*.avi
+*.ogv
+*.ogg
+*.webm
+
+# Audio #
+#########
+
+*.wav
+*.mp3
+*.wma
+
+# Folders # 
+###########
+
 vendor/
