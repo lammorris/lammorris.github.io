@@ -7,9 +7,6 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-.firebaserc
-firebase.json
-.idea
 
 # Logs and databases #
 ######################
@@ -47,7 +44,11 @@ firebase.json
 *.mp3
 *.wma
 
-# Folders # 
-###########
-
+# User #
+########
+.firebaserc
+firebase.json
+.idea
 vendor/
+_site/
+_jekyll-metadata
