@@ -7,12 +7,12 @@ layout: page
 
 ### Featured Work
 #### [Ranked](https://itunes.apple.com/us/app/ranked10/id1364172790?ls=1&mt=8)
-Upload. Share. Rank. Flagship application for social media start up based on ranking
-and finding the next viral video. Developed for Ranked Media.
+Upload. Share. Rank. Social media application for ranking and finding the next viral content.
+Developed for Ranked Media.
 
 #### [My CS-Link](https://itunes.apple.com/us/app/cedars-sinai-my-cs-link/id1034088603?mt=8)
-Healthcare at your fingertips. Flagship application that allows patient to access
-their personal health record. Developed for Cedar-Sinai Medical Center.
+Healthcare at your fingertips. Flagship application that allows patient access to
+their personal health records. Developed for Cedar-Sinai Medical Center.
 
 #### iOS FHIR Template
 Open-source template for an iOS application that leverages OAuth2.0 and the HL7
@@ -28,10 +28,11 @@ amount of time spent with patients. Developed internally for Cedar-Sinai Medical
 
 #### [MyNutritionHealth](https://itunes.apple.com/us/app/mynutritionhealth/id1188921901?mt=8)
 IRB-approved research study on gastrointestinal health over a two-week period.
-Designed on ResearchKit. Developed for Cedar-Sinai Medical Center.
+Leveraged internally designed REDCap and ResearchKit integration framework.
+Developed for Cedar-Sinai Medical Center.
 
 #### Gender Identity
-Pilot application designed to demonstrate REDCap and ResearchKit integration.
+Pilot application demonstrating REDCap and ResearchKit integration.
 Developed internally for Cedar-Sinai Medical Center.
 
 #### IEEE NATCAR

@@ -21,12 +21,18 @@
   <link rel="canonical" href="{{ site.url }}" />
 </head>
 <body>
+
   <article>
    <div class="container">
     <h1><a href="./">{{ site.title }}</a></h1>
     {{ content }}
     </div>
   </article>
+
+  {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+
 <script src="{{ site.baseurl }}/scripts/rrssb.min.js"></script>
 </body>
 </html>

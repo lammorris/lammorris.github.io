@@ -19,4 +19,4 @@ I write [[code]](https://github.com/lammorris)
 
 I take [[pictures]](https://photography.morrislam.com)
 
-I like [[sharing]](/FeaturedWork.html)
+I create [[things]](/projects.html)
