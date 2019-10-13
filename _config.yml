@@ -24,7 +24,7 @@ github_username: lammorris
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minima
 font-awesome-include: true
 plugins:
   - jekyll-feed
