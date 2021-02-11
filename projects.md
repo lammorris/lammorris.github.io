@@ -6,6 +6,10 @@ layout: page
 ---
 
 ### Featured Work
+#### [Amazon Alexa](https://apps.apple.com/us/app/amazon-alexa/id944011620)
+Use the Amazon Alexa App to set up your Alexa-enabled devices, listen to music, create 
+shopping lists, get news updates, and much more. 
+
 #### [Nike](https://itunes.apple.com/us/app/nike/id1095459556?mt=8)
 The Nike app is exclusive access to the best of Nike, tailored to you.
 
