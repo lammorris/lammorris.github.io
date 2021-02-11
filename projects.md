@@ -10,20 +10,20 @@ layout: page
 Use the Amazon Alexa App to set up your Alexa-enabled devices, listen to music, create 
 shopping lists, get news updates, and much more. 
 
-#### [Nike](https://itunes.apple.com/us/app/nike/id1095459556?mt=8)
+#### [Nike](https://apps.apple.com/us/app/nike/id1095459556)
 The Nike app is exclusive access to the best of Nike, tailored to you.
 
-#### [Nike Training Club](https://itunes.apple.com/us/app/nike-training-club/id301521403?mt=8)
+#### [Nike Training Club](https://apps.apple.com/us/app/nike-training-club/id301521403)
 Welcome to Nike Training Club, your Ultimate Personal Trainer.
 
-#### [Nike Running Club](https://itunes.apple.com/us/app/nike-run-club/id387771637?mt=8)
+#### [Nike Running Club](https://apps.apple.com/us/app/nike-run-club/id387771637)
 Your Perfect Running Partner - Nike Run Club
 
 #### [Ranked](https://itunes.apple.com/us/app/ranked10/id1364172790?ls=1&mt=8)
 Upload. Share. Rank. Social media application for ranking and finding the next viral content.
 Developed for Ranked Media.
 
-#### [My CS-Link](https://itunes.apple.com/us/app/cedars-sinai-my-cs-link/id1034088603?mt=8)
+#### [My CS-Link](https://apps.apple.com/us/app/cedars-sinai-my-cs-link/id1034088603)
 Healthcare at your fingertips. Flagship application that allows patient access to
 their personal health records. Developed for Cedar-Sinai Medical Center.
 
@@ -31,7 +31,7 @@ their personal health records. Developed for Cedar-Sinai Medical Center.
 Open-source template for an iOS application that leverages OAuth2.0 and the HL7
 FHIR standard to access multiple EMR systems. Sponsored by Cedar-Sinai Medical Center.
 
-#### [Steezy](https://itunes.apple.com/us/app/steezy-studio-learn-to-dance/id1296001664?mt=8)
+#### [Steezy](https://apps.apple.com/us/app/steezy-studio-learn-to-dance/id1296001664)
 Subscription-based video-streaming service that produces and distributes
 dance tutorial. Developed for Steezy.
 
