@@ -1,17 +1,3 @@
-# Lammorris.github.io
-`lammorris.github.io` is a website that serves as the portfolio page for Morris Lam.
+# morrislam.com
 
-- [Dependencies](#dependencies)
-- [Maintainers](#maintainers)
-
-<a name="dependencies"></a>
-## Dependencies
-
-- [Jekyll](https://github.com/jekyll/jekyll)
-- [Minima](https://github.com/jekyll/minima)
-
-
-<a name="maintainers"></a>
-## Maintainers
-
-`Lammorris.github.io` is only contributed to by Morris Lam.
+Morris Lam's personal site — a static one-pager (Swiss Editorial design, hand-built HTML/CSS/JS). Deployed to GitHub Pages via Actions on every push to master.

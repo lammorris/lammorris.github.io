@@ -1,24 +1,29 @@
----
-layout: default
----
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404 — Morris Lam</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --paper:#fafaf7; --ink:#111110; --accent:#ff4d00; }
+  * { margin:0; box-sizing:border-box; }
+  body { background:var(--paper); color:var(--ink); font-family:"Archivo",Helvetica,Arial,sans-serif; min-height:100vh; display:flex; align-items:center; padding:48px 6vw; }
+  .mono { font-family:"IBM Plex Mono",monospace; text-transform:uppercase; letter-spacing:.14em; font-size:12px; }
+  h1 { font-size:clamp(64px,14vw,160px); font-weight:800; letter-spacing:-.04em; line-height:.95; }
+  h1 .period { color:var(--accent); }
+  p { margin-top:20px; font-size:18px; }
+  a { color:var(--ink); text-decoration:none; border-bottom:3px solid var(--accent); font-weight:600; }
+  .tag { color:var(--accent); margin-bottom:24px; }
 </style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+</head>
+<body>
+  <main>
+    <p class="mono tag">Error — 404</p>
+    <h1>Not here<span class="period">.</span></h1>
+    <p>This page doesn't exist. Head back to <a href="/">morrislam.com</a>.</p>
+  </main>
+</body>
+</html>
