@@ -77,17 +77,6 @@
       }
       .topbar .brand { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
       .topbar .name { font-weight: 700; letter-spacing: 0.02em; }
-      .study-badge {
-        display: inline-block;
-        border: 1px solid var(--accent);
-        color: var(--accent);
-        padding: 3px 8px 2px;
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 10px;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-        white-space: nowrap;
-      }
       .clock {
         font-variant-numeric: tabular-nums;
         color: var(--ink-soft);
@@ -138,28 +127,6 @@
         max-width: 30ch;
       }
       .hero-sub .lede .accent { color: var(--accent); }
-      .hero-meta {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        border-top: 1px solid var(--rule);
-      }
-      .hero-meta div {
-        padding: 12px 16px 4px 0;
-      }
-      .hero-meta dt {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 10px;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-        color: var(--ink-soft);
-        margin: 0 0 6px;
-      }
-      .hero-meta dd {
-        margin: 0;
-        font-size: 15px;
-        font-weight: 600;
-        letter-spacing: -0.005em;
-      }
 
       /* ---------- Sections ---------- */
       section.block {
@@ -187,50 +154,14 @@
         min-width: 24px;
       }
       .section-head .count { color: var(--ink-soft); }
-
-      /* ---------- Profile ---------- */
-      .profile-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 32px;
-      }
-      @media (min-width: 860px) {
-        .profile-grid { grid-template-columns: 7fr 5fr; gap: 48px; }
-      }
-      .profile-grid p {
-        margin: 0 0 1.1em;
-        font-size: clamp(17px, 1.6vw, 20px);
-        line-height: 1.55;
-        max-width: 56ch;
-      }
-      .profile-grid p:last-child { margin-bottom: 0; }
-      .profile-grid .playful { color: var(--ink-soft); }
-      .profile-grid .playful a {
+      .hero-sub .playful { color: var(--ink-soft); margin-top: 20px; font-size: 16.5px; line-height: 1.6; max-width: 34em; }
+      .hero-sub .playful a {
         color: inherit;
         text-decoration: underline;
         text-decoration-color: var(--accent);
         text-underline-offset: 3px;
       }
-      .profile-grid .playful a:hover { color: var(--accent); }
-      .facts {
-        border-top: 1px solid var(--rule-strong);
-      }
-      .facts .row {
-        display: grid;
-        grid-template-columns: 110px 1fr;
-        gap: 16px;
-        padding: 12px 0;
-        border-bottom: 1px solid var(--rule);
-        align-items: baseline;
-      }
-      .facts .row dt {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 10px;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-        color: var(--ink-soft);
-      }
-      .facts .row dd { margin: 0; font-size: 15px; font-weight: 600; }
+      .hero-sub .playful a:hover { color: var(--accent); }
 
       /* ---------- Work index ---------- */
       .work-table { border-top: 1px solid var(--rule-strong); }
@@ -321,34 +252,10 @@
       }
       @media (min-width: 860px) { .work-row .arrow { display: block; } }
       .work-row:hover .arrow, .work-row:focus-within .arrow { opacity: 1; transform: translateX(0); }
-
-      .earlier {
-        margin-top: clamp(28px, 4vw, 44px);
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 0;
-        border-top: 1px solid var(--rule);
-      }
       @media (min-width: 860px) {
         .earlier { grid-template-columns: 240px 1fr 1fr; column-gap: 28px; }
       }
-      .earlier .label {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 10px;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-        color: var(--ink-soft);
-        padding: 16px 0 4px;
-      }
-      .earlier .item { padding: 12px 0 16px; }
       @media (min-width: 860px) { .earlier .item { padding-top: 16px; } }
-      .earlier .item h3 {
-        margin: 0 0 4px;
-        font-size: 17px;
-        font-weight: 700;
-        letter-spacing: -0.015em;
-      }
-      .earlier .item p { margin: 0; font-size: 14px; line-height: 1.5; color: var(--ink-soft); }
 
       /* ---------- Elsewhere ---------- */
       .links { border-top: 1px solid var(--rule-strong); }
@@ -442,77 +349,32 @@
       <!-- Hero -->
       <div class="hero">
         <p class="kicker mono">
-          <span><span class="accent">§</span>&nbsp; Portfolio — MorrisLam.com</span>
-          <span>San Francisco Bay Area, CA</span>
+          <span><span class="accent">§</span>&nbsp; Portfolio</span>
         </p>
         <h1 class="display">
           <span class="line">Hello<span class="period">.</span></span>
           <span class="line">I am Morris<span class="period">.</span></span>
         </h1>
         <div class="hero-sub">
-          <p class="lede">
-            iOS Engineer and Portrait Photographer based in the
-            Bay&nbsp;Area<span class="accent">.</span>
-          </p>
-          <dl class="hero-meta">
-            <div>
-              <dt>Currently</dt>
-              <dd>Writing code for Meta</dd>
-            </div>
-            <div>
-              <dt>Studied</dt>
-              <dd>Electrical Engineering, UCLA</dd>
-            </div>
-          </dl>
-        </div>
-      </div>
-
-      <!-- 01 Profile -->
-      <section class="block" aria-labelledby="profile-h">
-        <div class="section-head reveal">
-          <span class="mono no">01</span>
-          <h2 id="profile-h">Profile</h2>
-          <span class="rule" aria-hidden="true"></span>
-          <span class="mono count">Introduction</span>
-        </div>
-        <div class="profile-grid">
-          <div class="reveal">
-            <p>
-              Morris Lam is an iOS Engineer and Portrait Photographer based in
-              the Bay Area. He studied Electrical Engineering at UCLA, and now
-              writes code for Meta.
+          <div>
+            <p class="lede">
+              iOS Engineer and Portrait Photographer based in the
+              Bay&nbsp;Area<span class="accent">.</span>
             </p>
             <p class="playful">
-              He usually hides behind a camera, but at times you can find him
+              I studied Electrical Engineering at UCLA — now I write code for Meta.
+              I usually hide behind a camera, but at times you can find me
               <a href="https://youtu.be/ALzGNV5__l4?t=1m10s" target="_blank" rel="noopener">jumping</a> and
               <a href="https://www.youtube.com/watch?v=jbtRbDS1Ddw" target="_blank" rel="noopener">dancing</a>.
             </p>
           </div>
-          <dl class="facts reveal">
-            <div class="row">
-              <dt>Discipline</dt>
-              <dd>iOS Engineering</dd>
-            </div>
-            <div class="row">
-              <dt>Also</dt>
-              <dd>Portrait Photography</dd>
-            </div>
-            <div class="row">
-              <dt>Education</dt>
-              <dd>Electrical Engineering — UCLA</dd>
-            </div>
-            <div class="row">
-              <dt>Base</dt>
-              <dd>Bay Area, California</dd>
-            </div>
-          </dl>
         </div>
-      </section>
+      </div>
 
-      <!-- 02 Selected Work -->
+      <!-- 01 Selected Work -->
       <section class="block" aria-labelledby="work-h">
         <div class="section-head reveal">
-          <span class="mono no">02</span>
+          <span class="mono no">01</span>
           <h2 id="work-h">Selected Work</h2>
           <span class="rule" aria-hidden="true"></span>
           <span class="mono count">Index — 09 Projects</span>
@@ -594,10 +456,10 @@
 
       </section>
 
-      <!-- 03 Elsewhere -->
+      <!-- 02 Elsewhere -->
       <section class="block" aria-labelledby="elsewhere-h">
         <div class="section-head reveal">
-          <span class="mono no">03</span>
+          <span class="mono no">02</span>
           <h2 id="elsewhere-h">Elsewhere</h2>
           <span class="rule" aria-hidden="true"></span>
           <span class="mono count">03 Channels</span>
@@ -628,7 +490,7 @@
       <!-- Footer -->
       <footer>
         <div class="foot-inner mono">
-          <span>© 2026 Morris Lam <span class="accent">·</span> MorrisLam.com</span>
+          <span>© 2026 Morris Lam</span>
           <span>Set in Archivo &amp; Plex Mono</span>
         </div>
       </footer>
