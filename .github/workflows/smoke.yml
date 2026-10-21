@@ -1,0 +1,10 @@
+name: Smoke test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "actions can start in this repo"
